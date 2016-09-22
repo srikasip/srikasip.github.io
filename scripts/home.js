@@ -19,6 +19,10 @@ function newPage_func()
     right:"0.5em",
     top:"-9em"
   },1600);
+  
+  setTimeout(function() {
+    window.location.href = "canvas.html";
+  }, 1700);
 }
 
 $(document).ready(function(){
@@ -33,7 +37,7 @@ $(document).ready(function(){
       // defaults to false for infinite loop
       loopCount: false,
       callback: function(){ foo(); },
-      resetCallback: function() { newTyped(); }
+      resetCallback: function() {newTyped();}
   });
 
   $(".reset").click(function(){
