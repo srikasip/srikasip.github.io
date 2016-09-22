@@ -4,7 +4,7 @@ function foo(){ console.log("Callback"); }
 
 function newPage_func()
 {
-  $(".nextpage").css("background-color", "#dfdfdf");
+  $(".nextpage").css("background-color", "#f2f2f2");
   $(".nextpage").css("display", "block");
 
   $("#codeman").css("z-index", "9");
@@ -16,8 +16,8 @@ function newPage_func()
 
   $("#codeman").animate({
     width:"4em",
-    right:"0.5em",
-    top:"-9em"
+    top:"0.5em",
+    right:"-1.5em"
   },1600);
   
   setTimeout(function() {
