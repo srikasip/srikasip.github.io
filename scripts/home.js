@@ -1,3 +1,26 @@
+function newTyped(){ /* A new typed object */ }
+
+function foo(){ console.log("Callback"); }
+
+function newPage_func()
+{
+  $(".nextpage").css("background-color", "#dfdfdf");
+  $(".nextpage").css("display", "block");
+
+  $("#codeman").css("z-index", "9");
+  $("#codeman").css("position", "absolute");
+  
+  $(".nextpage").animate({
+    left: '0'
+  }, 800);
+
+  $("#codeman").animate({
+    width:"4em",
+    right:"0.5em",
+    top:"-9em"
+  },1600);
+}
+
 $(document).ready(function(){
 
   $("#typed").typed({
@@ -18,25 +41,7 @@ $(document).ready(function(){
   });
 
   $(".nextpage_link").click(function(){
-    alert("clicked next page")
-    $(".nextpage").css("background-color", "#dfdfdf");
-    $(".nextpage").css("display", "block");
-    $(".nextpage").animate({
-      left: "0px"
-    }, "slow");
-
-    window.location = "canvas.html";
+    newPage_func()
   });
 
 });
-
-function newTyped(){ /* A new typed object */ }
-
-function foo(){ console.log("Callback"); }
-
-
-$("div").animate({
-            left: '250px',
-            height: '+=150px',
-            width: '+=150px'
-        });

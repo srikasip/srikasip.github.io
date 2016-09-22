@@ -87,6 +87,7 @@ a:active
   height:20em;
   padding:0.5em;
   font-family:courier;
+  line-height: 2;
 }
 .greenText
 {
@@ -135,9 +136,10 @@ a.greenText:active
   height:100%;
   width:100%;
   position:absolute;
-  z-index:10;
+  z-index:5;
   top:0;
-  left:100%;
+  left:-100%;
+  display:none;
 }
 
 
