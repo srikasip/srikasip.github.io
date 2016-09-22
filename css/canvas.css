@@ -36,3 +36,14 @@ body{
   padding-left:0.5%;
   padding-top:0.5em;
 }
+.txt_coder_interaction
+{
+  background-color:transparent;
+  border:0px transparent;
+  color:#02E880;
+  font-family:courier;
+  size:1em;
+  border-bottom:1px #02E880;
+  width:100%;
+  height:2em;
+}
