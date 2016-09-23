@@ -47,3 +47,32 @@ body{
   width:100%;
   height:2em;
 }
+#toolkit button
+{
+  width:40%;
+  height:10%;
+  margin-left:5%;
+  margin-top:1em;
+  background-color:#dfdfdf;
+  border:2px #999999 Solid;
+  border-radius:10px;
+  cursor: pointer;
+
+}
+#toolkit button:hover
+{
+  background-color:#f0f0f0;
+  border:2px #d0d0d0 Solid;
+
+}
+
+#toolkit .selectedMenu
+{
+  background-color:#f0f0f0;
+  border:2px #999999 Solid;  
+}
+#toolkit .selectedMenu
+{
+  background-color:#dfdfdf;
+  border:2px ##d0d0d0 Solid;  
+}
