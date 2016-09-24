@@ -26,12 +26,11 @@ $(document).ready(function(){
   all_objects = all_object_types();
   for (obj in all_objects)
   {
-    
     $("#toolkit").append($("<button value='"+all_objects[obj]+"'>"+all_objects[obj]+"</button>"));
   }
 
   $("#toolkit button").click(function(){
+    $(".selectedMenu").removeClass("selectedMenu");
     $(this).toggleClass("selectedMenu");
   });
-
 });

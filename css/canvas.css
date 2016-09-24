@@ -63,7 +63,10 @@ body{
 {
   background-color:#f0f0f0;
   border:2px #d0d0d0 Solid;
-
+}
+#toolkit button:active
+{
+  border:2px #999999 Solid; 
 }
 
 #toolkit .selectedMenu
@@ -71,8 +74,11 @@ body{
   background-color:#f0f0f0;
   border:2px #999999 Solid;  
 }
-#toolkit .selectedMenu
+#toolkit .selectedMenu:hover
 {
-  background-color:#dfdfdf;
-  border:2px ##d0d0d0 Solid;  
+  border:2px ##d0d0d0 Solid;
+}
+#toolkit .selectedMenu:active
+{
+  border:2px #999999 Solid;
 }
