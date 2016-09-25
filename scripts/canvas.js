@@ -30,7 +30,14 @@ $(document).ready(function(){
   }
 
   $("#toolkit button").click(function(){
-    $(".selectedMenu").removeClass("selectedMenu");
-    $(this).toggleClass("selectedMenu");
+    if ($(this).hasClass("selectedMenu"))
+    {
+      $(this).toggleClass("selectedMenu");
+    }
+    else
+    {
+      $(".selectedMenu").removeClass("selectedMenu");
+      $(this).toggleClass("selectedMenu");
+    }
   });
 });
