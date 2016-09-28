@@ -38,6 +38,11 @@ $(document).ready(function(){
     {
       $(".selectedMenu").removeClass("selectedMenu");
       $(this).toggleClass("selectedMenu");
+
+      var new_obj = $("<div class='dom_obj'> </div>");
+      $("#canvas").append(new_obj);
+      $(new_obj).draggable({containment: "#canvas", snap:true});
+
     }
   });
 });

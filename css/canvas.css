@@ -82,3 +82,11 @@ body{
 {
   border:2px #999999 Solid;
 }
+
+.dom_obj
+{
+  height:20px;
+  width:20px;
+  border:1px #000 solid;
+  background-color: orange;
+}
